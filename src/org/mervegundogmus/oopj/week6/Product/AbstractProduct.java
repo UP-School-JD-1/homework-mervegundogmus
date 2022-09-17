@@ -22,6 +22,7 @@ public abstract class AbstractProduct {
 		this.sku = sku;
 	}
 
+	public void setDescription(String description) {
 		this.description = description;
 	}
 }

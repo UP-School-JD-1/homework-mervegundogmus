@@ -1,8 +1,19 @@
 package org.mervegundogmus.oopj.week6.Temperature;
 
-public interface Temperature {
-    public double getTempInFarenheit(double celcius);
-    public double getTempInCelcius(double farenheit);
-    public double getCurrentTemp();
-    public double setDefaultTemp(double defaultCelcius);
+public abstract class Temperature implements Convertable{
+    private double degree;
+
+    public Temperature(double degree) {
+        this.degree = degree;
     }
+
+    public double getDegree() {
+        return degree;
+    }
+
+    public void setDegree(double degree) {
+        this.degree = degree;
+    }
+
+}
+
