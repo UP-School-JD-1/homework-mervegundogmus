@@ -1,8 +1,3 @@
-### Even Number
+### Even Number & Binary Operator
 
-![github](image1.png)
-
----
-
-### Binary Operator
-![github](image2.png)
+![github](image.png)

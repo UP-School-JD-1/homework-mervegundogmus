@@ -1,5 +1,3 @@
-# homework-mervegundogmus
-
 ## 🟦UP School Java Development Program with ING Türkiye
 
 Instructor: Akın Kaldıroğlu 💻
