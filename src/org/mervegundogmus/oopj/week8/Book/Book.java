@@ -63,15 +63,11 @@ public class Book implements Comparable {
 		return title.compareTo(book.getTitle());
 	}
 
-	public void printInfo() {
-		System.out.println(" *** Book Info *** ");
-		System.out.println(this);
-	}
 	
 	public static final List<Book> list = Arrays.asList(
-			new Book("Effective Java", "Joshua", "Bloch", 717, Type.SCIENCE),
-            new Book("The Cat in the Hat", "Dr", "Seuss", 450, Type.TECHNOLOGY),
-            new Book("Clean Code", "Robert C.", "Martin", 982, Type.COMPUTER),
-            new Book("Harry Potter and The Sorcerers Stone", "JK", "Rowling", 411, Type.MOVIE),
-            new Book("Design Patterns", "Eric", "Gamma", 582, Type.TECHNOLOGY));
+		new Book("Effective Java", "Joshua", "Bloch", 717, Type.SCIENCE),
+            	new Book("The Cat in the Hat", "Dr", "Seuss", 450, Type.TECHNOLOGY),
+            	new Book("Clean Code", "Robert C.", "Martin", 982, Type.COMPUTER),
+            	new Book("Harry Potter and The Sorcerers Stone", "JK", "Rowling", 411, Type.MOVIE),
+            	new Book("Design Patterns", "Eric", "Gamma", 582, Type.TECHNOLOGY));
 }
