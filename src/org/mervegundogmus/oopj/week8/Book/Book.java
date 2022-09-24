@@ -35,22 +35,17 @@ public class Book implements Comparable {
 		return authorFName;
 	}
 
-
 	public String getAuthorLName() {
 		return authorLName;
 	}
-
 
 	public int getPages() {
 		return pages;
 	}
 
-
-
 	public Type getType() {
 		return type;
 	}
-
 
     @Override
     public String toString() {
@@ -63,7 +58,6 @@ public class Book implements Comparable {
 		return title.compareTo(book.getTitle());
 	}
 
-	
 	public static final List<Book> list = Arrays.asList(
 		new Book("Effective Java", "Joshua", "Bloch", 717, Type.SCIENCE),
             	new Book("The Cat in the Hat", "Dr", "Seuss", 450, Type.TECHNOLOGY),
